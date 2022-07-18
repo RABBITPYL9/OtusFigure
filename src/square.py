@@ -1,7 +1,7 @@
-from figure import Figure
+from rectangle import Rectangle
 
 
-class Square(Figure):
+class Square(Rectangle):
 
     def __init__(self, a):
         self.name = "square"
